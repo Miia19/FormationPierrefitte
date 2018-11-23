@@ -1,0 +1,40 @@
+body{
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; le cover dit que l'image prend toute la page */
+   background-color: dimgrey;
+   font-family:"Indie-Flower",cursive;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "josefin-sans", sans-serif;
+}
+
+.encadre { 
+  border:1px solid white;
+}
+.exemple_padding { 
+  padding:0px; 
+}
+
+.exemple_margin { 
+  margin:0px; 
+
+}
+
+p{
+    color: crimson;
+    text-align: center;
+    
+}
+
+.decale { 
+  position:relative;
+  left:50px;
+  top:50px;
+}
+p{ color-interpolation-filters: dodgerblue
+
+}
+
+.miia{background: url(https://img.over-blog-kiwi.com/2/09/19/36/20171030/ob_4ef39f_eagle-01-svg.png)no-repeat center /100% 58%;
+
+}

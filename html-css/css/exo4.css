@@ -1,0 +1,63 @@
+*{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+body{
+    background: #cbdfd7ec;
+}
+
+header{
+    background:yellow;
+    color: #fff;
+    height: 50px;
+}
+
+h1{
+    text-align:center;
+    color: white;
+}
+
+nav{
+    background:lightblue;
+    height: 30px;
+}
+
+     .blue{
+         background-color: rgb(40, 10, 172);
+     }
+
+     .pink{
+         background-color: pink;
+     }
+     
+     .grey{
+         background-color: rgb(139, 45, 1);
+         height:430px
+     }
+
+
+     .carrer{
+         background-color: rgb(206, 75, 0);
+         height: 430px
+     }
+.tt{ 
+    background: black;
+    height: 844px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: -45.2%
+}
+     h3{
+         text-align: center;
+         color: white
+ }
+
+
+      footer{
+        background:gold;
+        height: 50px;
+     }

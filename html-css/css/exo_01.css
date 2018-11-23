@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+body{
+    background: #cbdfd7ec;
+}
+
+header{
+    background:gold;
+    color: white;
+    height: 50px;
+}
+
+h3{
+    text-align:center;
+    color: white;
+}
+
+nav{
+    background:rgb(5, 129, 201); 
+    height: 30px;
+}
+
+h3{
+    text-align:center;
+    color: white;
+}
+
+section{
+     height: 840px;
+     }
+
+      footer{
+        background:gold;
+        height: 45px;
+     }
