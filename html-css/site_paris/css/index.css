@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+   background: url(../img/paris1.jpg) no-repeat center /100% 100%;
+   height: 1000px;
+}
+
+
+nav{
+    background:rgb(13, 15, 9);
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+}
+
+li{
+    float: left;
+    width: 20%;
+}
+
+li a{
+    color:darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 50px;
+    display: inline-block;
+}
+
+li a:hover{
+    background:rgba(137, 168, 207, 0.918);
+    border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+    /* padding-right: 700px; */
+    margin-right: 45%;
+    margin-top: 10%;
+}

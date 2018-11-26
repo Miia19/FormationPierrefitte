@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+
+    <h1>Centre de maternité</h1>
+    <form>
+        <fieldset class="fieldset-1">
+            <legend>Informations personnelles:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autofocus>
+            <br>
+            <!-- ajouter un label et un champ telephone -->
+            <label for="prenom">Prenom:</label>
+            <input type="prenom" name="prenom" id="prenom" required>
+            <br>
+            <!-- ajouter un label et un champ email -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required/>
+            <br>
+
+            <!-- ajouter un label et un champ mot de passe  -->
+            <label for="password">Passeword:</label>
+            <input type="password" name="password" id="password" required>
+            <br>
+        </fieldset>
+
+
+        <form action="#" method="post">
+            <p>Nom :
+                <input type="text" name="lastname" />
+            </p>
+
+            <p>Prénom :
+                <input type="text" name="firstname" />
+            </p>
+
+            <p>Date de naissance :
+                <input type="text" name="day" />
+                <input type="text" name="month" />
+                <input type="text" name="year" />
+            </p>
+
+            <p>Heure de naissance :
+                <input type="text" name="birthtime" />
+            </p>
+
+            <p>Sexe :
+                <input type="text" name="gender" />
+            </p>
+
+            <p>Adresse :
+                <input type="text" name="adress" />
+            </p>
+
+            <p>Photo :
+                <input type="text" name="photo" />
+            </p>
+
+            <!-- ajouter un bouton d'envoi avec "envoyer" comme texte -->
+            <input type="submit" value="envoyer" name="button" id=" button">
+            <br>
+
+        </form>
+
+
+</body>
+
+
+
+</html>
