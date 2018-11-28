@@ -1,0 +1,78 @@
+.c1{
+    height: 10em;
+    width: 10em;
+    float: left;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 10% 30% 35%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.c2{
+    height: 10em;
+    width: 10em;
+    float: left;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius:30% 5%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.c3{
+    height: 10em;
+    width: 10em;
+    float: left;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+    .c4{
+    height: 10em;
+    width: 10em;
+    float: left;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 10% 30% 10%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+
+    .vide{
+    height: 10em;
+    width: 10em;
+    float: left;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 10% 30% 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+  
+.vide{
+    background:transparent;
+}
+.c1{
+    background-color: #0b632d;
+}
+.c2{
+    background: #00f8e8;
+}
+.c3{
+    background: rgb(131, 233, 211);
+}
+.c4{
+    background: rgb(221, 121, 204);
+}
+section div:nth-child(18){
+    background:red;
+  }
+
+.clear{
+     clear: both;
+}

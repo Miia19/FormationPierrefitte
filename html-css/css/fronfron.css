@@ -1,0 +1,56 @@
+body{
+    background: rgb(10, 196, 186);
+}
+section{
+    width: 80%;
+    margin:0 auto;
+}
+td{
+    width: 4em;/*1em =16px*/
+    height: 4em;
+}
+
+.black{
+    background: black
+}
+.brown1{
+  background: rgb(48,36,24);
+}
+.brown2{
+    background: rgb(66,50,35)
+}
+
+.pink1{
+    background:rgb(254,170,126);
+    }
+    .pink2{
+        background: rgb(254,154,102);
+    }
+    .vert1{
+        background: rgb(50,72,30);
+    }
+    .vert2{
+        background:rgb(50,72,30);
+    }
+    .vert3{
+        background: rgb(50,72,30);
+    }
+    .white{
+        background: white;
+    }
+    .brown3{
+        background: rgb(111,45,17);
+    }
+.yellow{
+    background: yellow;
+}
+.brown4{
+    background:rgb(138,54,10);
+}
+.brown5{
+    background: rgb(133,80,46);
+}
+.brown6{
+    background:rgb(154,90,54);
+ 
+}
