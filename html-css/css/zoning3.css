@@ -1,0 +1,53 @@
+#conteneur{ 
+    width: 960px; 
+    background: pink; 
+    color: white; 
+    margin: 0 auto; 
+}
+header { 
+    background: rgb(250, 169, 250);
+     height: 60px; 
+     line-height: 60px;
+      text-align: center; 
+    }
+nav { background: rgb(97, 97, 228); 
+    height: 30px;
+     line-height: 30px;
+      text-align: center; 
+    }
+section{ 
+    height: 500px;
+     background: pink;
+      margin: 10px; 
+    }
+.GZ { border: 1px solid; 
+    float: left; 
+    height: 248px;
+     width: 468px; 
+    }
+.PZ { 
+    border: 1px
+     solid; float: 
+     left; height: 122px; 
+     line-height: 122px; 
+     text-align: center; 
+     width: 232px;
+     }
+.couleur_vert1{ 
+    background: rgb(10, 207, 197);
+ }
+.couleur_vert2{ 
+    background: rgb(121, 238, 201);
+ }
+.couleur_blue1{
+     background: rgb(9, 177, 243);
+     }
+.couleur_blue2{
+    background: rgb(47, 107, 219); 
+}
+footer {
+    background: rgb(234, 131, 243);
+    height: 70px;
+    line-height: 70px;
+     text-align: center;
+     }
