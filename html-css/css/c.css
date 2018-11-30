@@ -3,11 +3,11 @@
     margin: 0 auto;
 }
 body{
-    background: pink
+    background: rgb(253, 0, 42)
 }
 
 .banner{
-    background: #333333;
+    background: #0c0808;
     height: 80px;
 }
 
