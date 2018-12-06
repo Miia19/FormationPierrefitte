@@ -1,0 +1,31 @@
+.responsive{
+    color: white;
+    height: 100px;
+    background: green;
+}
+/*en utilisant"max-width le style sera éxecuté si la fenêtre est inférieur à la taille defini*/
+
+@media screen and (min-width: 500px){
+.responsive{
+ background:red;  
+ color: black;
+    }
+}
+@media screen and (min-width:798px ){
+.responsive{
+ background:yellow;  
+ color: red;
+    } 
+}
+@media screen and (min-width: 960px){
+.responsive{
+ background:blue;  
+ color: red;
+    }
+}
+@media screen and (min-width: 1024px){
+.responsive{
+ background:black;  
+ color: white;
+    }
+}
