@@ -1,104 +1,116 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Restaurant ce soir</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/TP2.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="elements/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style_1.css">
 </head>
 
 <body>
-    <section>
-        <div class="container">
-
-            <div class="row">
-                <div class=" text">
-                    <H1>CE SOIR</H1>
-                </div>
+    <div class="container">
+        <header>
+            <div class="logoResto">
+                <h1 class="inlineB">C<span>e</span> soir</h1>
+                <hr class="rectRose">
+            </div>
+            <nav class="inlineB">
                 <ul>
-                    <li>Our story</li>
-                    <li>Fare</li>
-                    <li>Drink</li>
-                    <li>Contact</li>
+                    <li class="inlineB"><a href="#story">Our story</a></li>
+                    <li class="inlineB"><a href="#soap">Fare</a></li>
+                    <li class="inlineB"><a href="#Drink">Drink</a></li>
+                    <li class="inlineB"><a href="#Contact">Contact</a></li>
                 </ul>
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img class="plate" src="../TP2_Restaurant_Ce-soir/img/woodPlank.jpg" width="960" height="495" alt="plate">
-                </div>
+            </nav>
+            <div id="logo">
+                <img src="img/cerf.svg" alt="logo design">
+                <div><i id="fleche"></i></div>
             </div>
-
-            <div class="row">
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="img/pattern.jpg" width="380" height="495" alt="plate">
+        </header>
+        <section>
+            <section id="story">
+                <article class="pBloque-left">
+                    <h2>Our Story</h2>
+                    <hr class="rectRose">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class=txtRose>Est.2004</p>
+                </article>
+                <!--
+                -->
+                <div class="pBloque-right">
+                    <!-- <img src="img/asperge.jpg" alt=""> -->
                 </div>
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="../TP2_Restaurant_Ce-soir/img/asperge.jpg" width="680" height="495" alt="plate">
+            </section>
+            <section id="soap">
+                <div class="pBloque-right">
+                    <img src="img/soap.jpg" alt="">
                 </div>
+                <!--
+            -->
+                <article class="pBloque-left">
+                    <img src="img/G1.jpg" alt="">
+                    <h2>Fresh Fare</h2>
+                    <hr class="rectRose">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <p class=txtRose>all natural</p>
+                </article>
+            </section>
+            <section id="local">
+                <article class="pBloque-left">
+                    <img src="img/G2.jpg" alt="">
+                    <h2>Local Distillation</h2>
+                    <hr class="rectRose">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <p class="txtRose">craft liquor</p>
+                </article>
+                <div class="pBloque-right">
+                    <img src="img/moule.jpg" alt="">
+                </div>
+            </section>
+            <section id='eggs'>
+                <img src="img/eggs.jpg" alt="">
+            </section>
+        </section>
+        <footer>
+            <div>
+                <div class="logoResto">
+                    <h1 class="inlineB">C<span>e</span> soir</h1>
+                    <hr class="rectRose">
+                </div>
+                <p>3346 west mio street<br />
+                    henryville, ca 77095</p>
+                <p>tel (00) 123 456 789<br />
+                    tel (00) 123 456 789</p>
             </div>
-            <div class="row">
-                <h2 class="text2">OUR STORY</h2>
-                <p class="bar2">Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est
-                    trés
-                    agréable, elle est ouverte sur la
-                    cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin
-                    parisien.
-                    A
-                    l'entrée un joli
-                    sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...
-                    Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés
-                    prisé
-                    !</p>
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="../TP2_Restaurant_Ce-soir/img/soap.jpg" width="680" height="495" alt="plate">
-                </div>
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="img/pattern.jpg" width="280" height="495" alt="plate">
-                </div>
+            <!--
+    -->
+            <div id='social'>
+                <ul>
+                    <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+                </ul>
             </div>
-            <div class="row">
-                <h2 class="text3">FRESH FARE</h2>
-                <p class="bar">Service toujours impeccable. L'ensemble de la table est servi rapidement, la
-                    corbeille de
-                    pain
-                    régulièrèment pleine,
-                    les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour
-                    marier
-                    mets-vins.
-                    On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p>
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="img/pattern.jpg" width="380" height="495" alt="plate">
-                </div>
-                <div class="col-sm col-md col-lg">
-                    <img class="plate" src="../TP2_Restaurant_Ce-soir/img/moule.jpg" width="680" height="495" alt="plate">
-                </div>
-            </div>
-            <div class="row">
-                <h2 class="text3">LOCAL DISTILLATION</h2>
-                <p class="bar">Service toujours impeccable. L'ensemble de la table est servi rapidement, la
-                    corbeille de
-                    pain
-                    régulièrèment pleine,
-                    les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour
-                    marier
-                    mets-vins.
-                    On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p>
-                <div class="col-sm">
-                    <img class="plate" src="../TP2_Restaurant_Ce-soir/img/eggs.jpg" width="960" height="495" alt="plate">
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-sm toto">
-                    <img class="plate" src="img/pattern.jpg" width="960" height="295" alt="plate">
-                </div>
-            </div>
-        </div>
-    </section>
+        </footer>
+    </div>
 </body>
 
 </html>
+
+
+
+Réduire 
+
+Dernière mise à jour il y a moins d’une minute… Charger les nouveaux messages
+Zone de message
+
+
+Envoyer un message à #général
