@@ -1,0 +1,27 @@
+/*style global*/
+
+body{
+    background: rgb(161, 238, 234);
+}
+.container{
+width: 80%;
+margin: 0 auto;
+}
+/*style hearder*/
+
+.logo{
+    position: relative;
+    left: 7%;
+    bottom: 23%;
+}
+.col-md-6 .lead{
+    color: rgb(226, 84, 184);
+    bottom: 9%;
+    position: relative;
+}
+.col-md-3 h4{
+    bottom: 17%;
+    position: absolute;
+    top: 26%;
+    left:26%;
+}
