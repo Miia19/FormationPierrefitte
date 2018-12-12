@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Courgette', cursive;
+}
+body{
+   background:url("../img/background.png");
+   
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+section{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: white;
+    margin-top: 14%;
+}
+
+
+.banner{
+    background: pink;
+    height: 40px;
+}
+
+.corn{
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+
+.ul {
+    width: 100%;
+    margin-left:65%;
+    padding-top:10px;
+    list-style-type:none;
+ }
+
+.ul .li a {
+ display:block;
+ float:left;   
+ width:10%; /*l'équart entre mes liens*/
+ color:white;
+ text-decoration:none;
+ text-align: center;
+ }
+
+ a:hover{
+     border: 1px solid pink;
+ }
+
+
+.uni2{
+    float: right;
+}
+
+.uni1{
+    float: left;
+}
+.lico{
+position: absolute;
+top: 100px;
+left: 900px;
+}
+.lico2{
+position: absolute;
+    top: 88px;
+    left: 12px;  
+    color: palevioletred;  
+}
+.lico img{
+    position: relative;
+    right: 55%;
+    left: -40%;
+}
