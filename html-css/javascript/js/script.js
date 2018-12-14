@@ -117,24 +117,24 @@ document.write(unChiffre + '/n');// 12
 document.write(typeof (unChiffre) + '/n');//string
 unchiffre = parseint(unChiffre);
 Document.write(unChiffre + '/n');//12
-Document.write(typeof (unChiffre);//number
+Document.write(typeof (unChiffre),//number
 //méthode (ou fonction ) parsefloat()
 
 var nb_en_lettre = "12.22";
 
 document.write(nb_en_lettre + '/n');// 12
-document.write(typeof nb_en_lettre) + '/n');//string
+document.write(typeof nb_en_lettre)( + '/n');//string
 unchiffre = parseint(nb_en_lettre);
 Document.write(unChiffre + '/n');//12
-Document.write(typeof (nb_en_lettre);//number
+Document.write(typeof (nb_en_lettre),//number
 
 //methode tostring(), qui sert a convertir en chaîne de caractére
 var nb_en_lettre = "258";
 
 document.write(nb_en_lettre + '/n');// 12
-document.write(typeof nb_en_lettre) + '/n');//string
-unchiffre = parseint(nb_en_lettre.tostring();
-Document.write(unChiffre + '/n');//12
-Document.write(typeof (nb_en_lettre);//number
+document.write(typeof nb_en_lettre) (+ '/n' )  ,//string
+unchiffre = parseint(nb_en_lettre.tostring(),
+Document.write(unChiffre + '/n'),//12
+Document.write(typeof (nb_en_lettre), //number
 
-alert("hello, je me lance depuit le fichier script.js !!");
+alert("hello, je me lance depuit le fichier script.js !!")

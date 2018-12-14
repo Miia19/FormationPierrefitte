@@ -1,0 +1,47 @@
+body{
+ 
+    color: black;
+    font-size: 16px;
+   font-family: 'Tangerine', cursive;
+    font-family: 'Charm', cursive;
+    }
+
+#myVideo {
+    position: fixed;
+    right: -320px;
+    bottom: -200px;
+    min-width: 100%;
+    min-height: 100%;
+    background: transparent;
+    width: 128%;
+}
+
+.container {
+  position: fixed;
+  height: 1000px;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(236, 236, 236);
+  width: 100%;
+  padding: 20px;
+  border-color:pink;
+  border-style: solid;
+}
+    h1{
+       border-color:pink;
+        border-style: solid; 
+        background: rgb(9, 167, 240);
+        color: black;
+        height: 5%;
+        width: 97%;
+        text-align: center;
+        position: relative;
+        top: -1%;
+        font-family: 'Tangerine', cursive;
+        font-family: 'Charm', cursive;
+    }
+    .date{
+        width: 1%;
+    }
+    .date1{
+        width: 2%;
+    }
