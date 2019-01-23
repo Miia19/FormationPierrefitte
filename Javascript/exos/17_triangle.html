@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangle</title>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<h1>Triangle</h1>
+	<p>Ecrivez un programme triangle.js qui construit progressivement un triangle de 7 lignes.</p>
+	<p>Résultat attentdu : </p>
+	<img src="img/17-1.png" alt=""><br>
+
+	<script>
+		var diese = "";
+		for (c = 0; c < 7; c++) {
+			diese += "#";
+			document.write(diese + "<br>");
+		}
+
+		var ligne = "";
+		var i = 1; 
+		while (i <= 7) {
+			ligne = ligne + "#";
+			document.write(ligne + "<br>");
+			i++;
+		}
+	</script>
+</body>
+</html>

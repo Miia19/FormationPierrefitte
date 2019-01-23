@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: url(../img/dinosaure.jpg) no-repeat center / 100% 100%;
+}
+.nav{
+    background: rgba(0, 0, 0, 0.2);
+    display: -webkit-inline-box;
+    height: 10vh;
+}
+.nav li {
+  
+  padding:1px 59px;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.nav li a{
+  color: white;
+}
+.bille{
+  background-color: rgb(56, 159, 207);
+  width: 10%;
+  height: 30px;
+}
+
+.logo{
+  margin-top: 5%;
+  margin-left: 578px;
+}
+.clim{
+  margin-left: 1557px;
+  top: 849px;
+}
+.title{
+  position: relative;
+  top: 64px;
+  margin-left: 113px;
+  text-align: -webkit-center;
+}
+.entree{
+  position: relative;
+  top: 76px;
+  margin-left: 621px;
+  text-align: -webkit-center;
+}
+.text{
+  position: relative;
+  top: 103px;
+  margin-left: 621px;
+  text-align: -webkit-auto;
+}
+.rdv{
+  position: relative;
+  top: 143px;
+  margin-left: 193px;
+  text-align: -webkit-center;
+}
+.reservez{
+  min-width: 74px;
+  position: relative;
+  top: 200px;
+  margin-left: 991px;
+  text-align: -webkit-left;
+  background-color: rgb(56, 159, 207);
+  height: 37px;
+}
+.tarif{
+  position: relative;
+  top: 344px;
+  margin-left: 193px;
+}
+h3.uppercase{
+  font-weight: 600;
+  margin-right: -6px;  
+}
+ .uppercase{
+  font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+ h3 {
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-weight: 600;
+
+}
+.fa-credit-card:before {
+  content: "\f09d";
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}  
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 131;
+  border-top: 1px solid rgba(0,0,0,.1);
+  width: 510px;
+}
+.achat{
+  background-color: rgb(56, 159, 207);
+
+} 
+.cr{
+  position: relative;
+  top: -142px;
+  margin-left: 773px;
+  text-align: -webkit-match-parent;
+}
+.part{
+  position: relative;
+  top: -3px;
+  margin-left: 464px;
+  height: 232px;
+}
+.logo2{
+  top: 27px;
+  margin-left: 134px;
+  height: 202px;
+}

@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  header{
+    height: 825px;
+    background: url(../images/header_bg.jpg) no-repeat center / 100% 100%;
+  }
+.nav {
+    background: rgba(0, 0, 0, 0.2);
+}
+.logo{
+    margin-left: 396px;  
+}
+.img{
+    position: relative;
+    top: -179px;
+    margin-left: 369px;
+    height: 29px;
+}
+.titl{
+    position: relative;
+    top: 266px;
+    margin-left: 648px;
+    font-size: 55px;
+}
+.titl1{
+    position: relative;
+    top: 251px;
+    margin-left: 739px;
+}
+.shape{
+    position: relative;
+    top: 225px;
+    margin-left: 903px;
+    height: 16px;
+}
+.sour{
+    position: relative;
+    top: 391px;
+    margin-left: 388px;
+    height: 43px;
+}
+.down{
+    position: relative;
+    top: 390px;
+    margin-left: 905px;
+}
+.crayon{
+    position: relative;
+    top: 123px;
+    margin-left: 369px;
+    height: 190px
+}
+.para{
+    position: relative;
+    top: -101px;
+    margin-left: 688px;
+    height: 33px;
+}
+.photo{
+    position: relative;
+    top: -122px;
+    margin-left: 1045px;
+    height: 43px;
+}
+.loup{
+    position: relative;
+    top: -184px;
+    margin-left: 1415px;
+    height: 24px;
+}
+.about{
+    position: relative;
+    top: 61px;
+    margin-left: 860px;
+    height: 38px; 
+}
+.shap{
+    position: relative;
+    top: 78px;
+    margin-left: 922px;
+    height: 19px;
+}
+.cent{
+    position: relative;
+    top: 159px;
+    margin-left: 260px;
+    height: 198px;  
+}
+.texte{
+    position: relative;
+    top: -33px;
+    margin-left: 752px; 
+}
+.texte1{

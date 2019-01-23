@@ -1,0 +1,1 @@
+document.getElementById("txt").innerText="SALUT TOUT L'MONDE !!!";

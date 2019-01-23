@@ -1,0 +1,20 @@
+/* style Global */
+@import url('https://fonts.googleapis.com/css?family=courgette');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #000;
+    font-size: 13px;
+    /* background-color: #fff; */
+    background-repeat: repeat;
+    background-position: top left;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/background.png);
+    padding-top: 70px; /* HAuteur de header */
+
+    /* style header */
+    header
+}

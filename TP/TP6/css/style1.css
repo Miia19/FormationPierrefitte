@@ -1,0 +1,64 @@
+/* Style Général */
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+body{
+    font-family: 'Charm', cursive;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 150px;
+    background: url(../img/pattern2.jpg)
+} 
+
+nav li{
+    list-style: none;
+    float: left;
+}
+
+nav ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    
+    height: 65px;
+    width: 60%;
+    background: rgb(167, 243, 68);
+    margin-left: 20%;
+    margin-top: -65px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}b
+.table{
+    display: table;
+    margin: 0 auto;
+    background-image: url(../img/demi-rond.png) no-repeat;
+}
+
+section{
+    height: 800px;
+    background: url(../img/pattern.jpg);
+}
+
+.img{
+    height: 300px;
+    width: 40%;
+}

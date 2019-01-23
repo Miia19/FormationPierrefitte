@@ -1,0 +1,55 @@
+body{
+    background: url(../../Integration_Licorne/img/background.png);
+} 
+
+header{
+    background: #C55394;
+    color: white;
+    height: 120px;
+}
+
+nav{
+    float: right;
+    margin: 0 40px 0 40px;
+}
+
+/* mettre les liens du menu en ligne */
+#navigation li {
+    display: inline;
+    text-decoration: none;
+}
+
+section{
+    width: 80%;
+    color: deeppink;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 3px 3px 6px 0 #A9A9A9;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2, h4{
+    font-family: Arial, sans-serif;
+    color: #C55394;
+}
+
+p{
+    font-family: 'Courgette', cursive;
+}
+.image{
+    display: flex;
+    text-align: center;
+}
+
+figcaption{
+    position: absolute;
+    top: 110%;
+    color: white;
+    background: black;
+    width: 15.8%;
+    opacity: 0.6;
+}
