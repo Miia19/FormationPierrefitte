@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+   <!-- Lancer le prompt demandant le nom puis le prompt demandant la date de naissance avec un bouton dans l'interface.
+   maintenant on peut  ajouter plusieurs individus dans notre tableau myUsers (c'est son nom dans l'exemple myScript.js)
+
+   Variante: Créer un formulaire HTML qui fait la même chose. Ajout: augmenter les objets user dans le tableau myUsers avec des parametres nouveaux-->
+
+   <button onclick="envoie()">Click me</button>
+
+   <form method="post">
+       <label for="prenom">Entrez votre prénom</label>
+       <input type="text" name="prenom" id="prenom"><br>
+
+       <label for="naissance">Entrez votre date de naissances</label>
+       <input type="date" name="naissance" id="naissance"><br>
+
+       <input type="button" onclick="send()" value="valider" id="bouton_envoi">
+   </form>
+
+   <script src="js/exo01.js"></script>
+</body>
+</html>

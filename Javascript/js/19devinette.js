@@ -1,55 +1,53 @@
-//  console.log("Bienvenue dans notre site");
+//  // mode Strict du JavaScript
+//  'use strict';
 
-//  var b = Math.floor(Math.random() * 100) + 1;
-//  console.log(b);
-
-//  var i = Number(prompt("Saisir un nombre"));
-//  if (i == b) {
-//      alert("Gagné !!!")
-//  } else {
-//      alert("Perdu")
+//  var ordi, joueur, hasard;
+ 
+//  //récupération du choix du joueur
+//  joueur = prompt("que choisissez-vous: pierre, fFuille ou Ciseaux");
+ 
+//  //Récupération d'un nombre aléatoire entre 0 et 1
+//  hasard = Math.random();
+ 
+//  // Test du random
+//  console.log(hasard);
+ 
+//  // condition du choix de l'ordi
+//  if(hasard <= 0.33){
+//      ordi = 'Pierre';
+//  }else if (hasard <= 0.66){
+//      ordi = 'Feuille';
+//  }else {
+//      ordi = 'Ciseaux';
 //  }
-
-
-console.log("Bienvenue dans ce jeu de devinette !");
-
-// Cette ligne génère aléatoirement un nombre entre 1 et 100
-var solution = Math.floor(Math.random() * 100) + 1;
-
-Décommentez temporairement cette ligne pour mieux vérifier le programme
-console.log("(La solution est " + solution + ")");
-
-TODO : complétez le programme
-
-var nombre = Number(prompt("Entrez un nombre :"));
-while (nombre !== solution) {
-    if (nombre > solution) {
-        console.log(nombre + " est trop grand");
-        nombre = Number(prompt("Retente ta chance !"))
-    }
-
-    else if (nombre < solution) {
-        console.log(nombre + " est trop petit");
-        nombre = Number(prompt("Retente ta chance !"))
-    }
-}
-if (nombre == solution)
-    console.log("Bravo !! La solution est : " + solution);
-
-
-var nombre = Number(prompt("Entrez un nombre :"));
-var tentative = 0;
-
-while ((nombre !== solution) && (tentative < 6)) {
-    if (nombre > solution)
-        console.log(nombre + " est trop grand");
-    else (nombre < solution)
-    console.log(nombre + " est trop petit");
-    tentative++;
-    var nombre = Number(prompt("Entrez un nombre:"));
-}
-
-if (nombre == solution)
-    console.log("Bravo ! La solution est " + solution);
-else
-    console.log("Vous avez perdu!"); 
+ 
+//  // On affiche le choix de l'ordi
+//  document.write("<p>Choix de l'ordinateur: " + ordi + "</p>");
+ 
+//  // Condition du résultat & du choix de l'utilisateur
+//  if(ordi == joueur){
+//      document.write('<p>Vous avez le choisi la même chose: Egalité</p>');
+//  }else{
+//      switch(ordi){
+//          case 'Ciseaux':
+//              if(joueur == 'Pierre'){
+//                  document.write('<p>Pierre écrase le ciseaux: Vous gagnez</p>');
+//              }else{
+//                  document.write('<p>la Feuille est découpé par les Ciseaux: Vous avez perdu</p>');
+//              }
+//          break;
+//          case 'Feuille':
+//              if(joueur == 'Pierre'){
+//                  document.write('<p>Pierre est enveloppé par la feuille: vous avez perdu</p>');
+//              }else{
+//                  document.write('<p>le ciseau découpe la feuille: Vous avez gagnez</p>');
+//              }
+//          break;
+//          case 'pierre':
+//              if(joueur == 'Feuille'){
+//                  document.write('<p>La feuille enveloppe la pierre: Vous avez gagnez</p>');
+//              }else{
+//                  document.write('<p>Les ciseaux sont écrasé par la pierre: vous avez perdu</p>');
+//              }
+//          break;
+//          }
