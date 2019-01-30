@@ -4,6 +4,10 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
    <title>Document</title>
 </head>
 <body>
@@ -12,9 +16,9 @@
 
    Variante: Créer un formulaire HTML qui fait la même chose. Ajout: augmenter les objets user dans le tableau myUsers avec des parametres nouveaux-->
 
-   <button onclick="envoie()">Click me</button>
+   <!-- <button onclick="envoie()">Click me</button> -->
 
-   <form method="post">
+   <!-- <form method="post">
        <label for="prenom">Entrez votre prénom</label>
        <input type="text" name="prenom" id="prenom"><br>
 
@@ -22,8 +26,105 @@
        <input type="date" name="naissance" id="naissance"><br>
 
        <input type="button" onclick="send()" value="valider" id="bouton_envoi">
-   </form>
+   </form> -->
 
-   <script src="js/exo01.js"></script>
+   <div>
+     <img src="../Javascript/img/systemeentete1.jpg" alt="Espace"width="100%">
+   </div>
+   <form class="needs-validation" novalidate> 
+   <table class="table">
+    <thead>
+      <tr>
+        <div class="col-md-4 mb-3">
+          <label for="pseudonyme">Pseudonyme</label>
+          <input type="text" class="form-control" id="pseudonyme" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>  
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <div class="col-md-4 mb-3">
+            <label for="nom">Nom</label>
+            <input type="text" class="form-control" id="nom" required>
+            <div class="valid-tooltip">
+            </div>
+          </div>
+      </tr>
+      <tr>
+        <div class="col-md-4 mb-3">
+          <label for="prenom">prénom</label>
+          <input type="text" class="form-control" id="prenom" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>
+      </tr>
+      <tr>
+        <div class="col-md-4 mb-3">
+          <label for="naissance">Naissances</label>
+          <input type="text" class="form-control" id="naissance" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>
+      </tr>
+      <tr>
+        <div class="col-md-4 mb-3">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>
+      </tr>
+      <tr>
+         </div>
+        <div class="col-md-6 mb-3">
+          <label for="adresse">Adresse</label>
+          <input type="text" class="form-control" id="adresse" required>
+          <div class="invalid-tooltip">
+          </div>
+        </div>
+      </tr>
+      <tr>
+        <div class="col-md-3 mb-3">
+          <label for="codepostal">Code Postal</label>
+          <input type="text" class="form-control" id="codepostal" equired>
+          <div class="invalid-tooltip">
+          </div>
+        </div>
+      </tr>
+      <tr>
+        <div class="col-md-3 mb-3">
+          <label for="profession">Profession</label>
+          <input type="text" class="form-control" id="profession" required>
+          <div class="invalid-tooltip">
+          </div>
+        </div>
+      </div>
+      </tr>
+
+ <button class="btn btn-primary" type="button" onclick="send()">valider</button>
+    </form>
+
+    </tbody>
+  </table>  
+
+     
+
+
+        
+
+   <div id="afficherutilisateurs"></div>  
+   <div id="afficherprofile"></div>  
+
+
+ 
+
+    
+
+
+
+
+    <script src="js/exo01.js"></script>
 </body>
 </html>
