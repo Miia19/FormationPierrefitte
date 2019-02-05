@@ -1,0 +1,20 @@
+/* GLOBAL */
+
+body{
+    background-color: rgb(109, 217, 236);
+}
+
+
+/* CONTAINER */
+.container{
+    padding: 0;
+    background-color: rgb(233, 221, 181);
+}
+
+p{
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*CONTENU*/

@@ -1,0 +1,286 @@
+jQuery SELECTORS 
+
+        Utilisez le bon sélecteur pour masquer tous les éléments <p>.
+        $("p").hide();
+
+      
+
+        Utilisez le bon sélecteur pour masquer un élément avec id = "test".
+        $("#test").hide();
+
+
+        Utilisez le bon sélecteur pour masquer tous les éléments avec class = "test".
+        $(".test").hide();
+
+
+        Utilisez le bon sélecteur pour masquer tous les éléments du document.
+        $("*").hide();
+        
+
+        Utilisez le bon sélecteur pour masquer tous les éléments ayant un attribut href.
+        $("[href]").hide();
+
+        Utilisez le bon sélecteur pour masquer toutes les lignes de table impaires dans une table.
+         $("tr:odd").hide();
+
+      jQuery EVENT    
+
+      
+Utilisez l'événement approprié pour masquer tous les éléments <p> en cliquant sur un "clic"
+        $("p").click(function(){
+          $(this).hide();
+        });
+
+        Utilisez l'événement approprié pour masquer tous les éléments <p> avec un "double-clic".
+                $("p").dblclick(function(){
+                  $(this).hide();
+                });
+
+                
+Lorsque le pointeur de la souris entre dans un élément <p>, il doit être masqué. Utilisez le bon événement pour le faire.
+        $("p").mouseenter(function(){
+          $(this).hide();
+        });
+
+        Si vous appuyez sur une touche du clavier à l'intérieur d'un élément <input>, il convient de la masquer. Utilisez le bon événement pour le faire.
+        $("input").keypress(function(){
+         $(this).hide();
+        });
+
+        
+Utilisez la méthode on () pour attacher un gestionnaire d’événements click à tous les éléments <p>.
+        $("p").on("click", function(){
+          $(this).hide();
+        });
+
+jQuery HIDE AND show
+        
+Utilisez une méthode jQuery pour masquer un élément <p> lorsque vous cliquez dessus.
+        $("p").click(function(){
+            $(this).hide();
+          });
+
+          
+Utilisez une méthode jQuery pour masquer un élément <p> lorsque vous cliquez dessus.
+        Remarque: la vitesse doit être "lente".
+        $("p").click(function(){
+            $(this).hide("slow");
+          });
+
+          
+Utilisez une méthode jQuery pour afficher un élément <p>.
+        $("button").click(function(){
+            $("p").show();
+          });
+
+          
+          Utilisez une méthode jQuery pour basculer entre masquer et afficher un élément <p>.
+                $("button").click(function(){
+                    $("p").toggle();
+                  });   
+jQuery FADE 
+
+                  Utilisez une méthode jQuery pour supprimer un élément <div>.
+                        $("div").fadeOut();
+
+                        Utilisez une méthode jQuery pour supprimer un élément <div>.
+                                Remarque: la durée de l'effet doit être "lente".
+                                $("div").fadeOut("slow");
+
+                                
+Utilisez une méthode jQuery pour fondre un élément <div> en lui donnant une opacité de "0,2".
+        $("div").fadeTo("slow", 0.2);
+
+        Utilisez une méthode jQuery pour basculer entre l’ajout ou la disparition en fondu d’un élément <div> lorsque vous cliquez sur un bouton.
+                Remarque: La durée de l’effet doit être de 1000 millisecondes.
+                $("button").click(function(){
+                    $("div").fadeToggle(1000);
+                    });
+
+                    jQuery SLIDE
+
+
+                    Utilisez une méthode jQuery pour faire glisser un élément <div>.
+                            $("div").slideUp(); 
+
+                            Utilisez une méthode jQuery pour faire glisser un élément <div>.
+                                    Remarque: la durée de l'effet doit être "lente".
+                                    $("div").slideUp("slow");
+
+                                    Utilisez une méthode jQuery pour faire glisser un élément <div>.
+                                            $("div").slideDown();
+
+                                         
+Utilisez une méthode jQuery pour basculer d’un élément <div> vers le haut ou vers le bas, lorsque vous cliquez sur un bouton.
+        $("button").click(function(){
+          $("div").slideToggle(1000);
+        });
+
+        jQuery ANIMATE
+
+        Utilisez la méthode animate () pour déplacer un élément <div> de 250 pixels vers la droite.
+                $("div").animate({left: '250px
+                    '});
+
+                    Utilisez la méthode animate () pour définir la hauteur d'un élément <div> à 500 pixels.
+                            $("div").animate({height: '500px'});
+
+                            
+Utilisez la méthode animate () pour définir les propriétés CSS suivantes pour <div>:
+        opacité: 0.4, hauteur: 500px, largeur: 500px.
+
+        $("div").animate({
+            opacity: ' 0.4 ',
+              height: '500px',
+             width : ' 500px '
+            });
+
+            Utilisez la méthode animate () pour définir la taille de police d'un élément <div> sur 100 pixels:
+                    Remarque: la durée de l'effet doit être "lente".
+                    $("div").animate({fontSize: '100px'}, "slow");
+                    
+                    
+                    jQuery STOP
+
+                    
+Utilisez une méthode jQuery pour arrêter l’effet d’animation d’un élément <div>.
+        $("div").stop();
+
+        jQuery GET 
+
+        Utilisez une méthode jQuery pour renvoyer le contenu texte d'un élément <div>.
+                $("div").text();
+
+                
+Utilisez une méthode jQuery pour renvoyer le contenu HTML d'un élément <div>.
+        $("div").html();
+
+        
+Utilisez une méthode jQuery pour renvoyer la valeur d'un champ de saisie.
+$("input").val();
+
+Utilisez une méthode jQuery pour renvoyer l'adresse URL d'un lien
+$("a").attr("href");
+
+ jQuery SET
+
+ Utilisez une méthode jQuery pour changer le texte d’un élément <div> en "Hello World".
+        $("div").text("Hello World");
+
+        
+Utilisez une méthode jQuery pour modifier la valeur d’un champ de saisie en "John Doe".
+$("input").val("John Doe");
+
+Utilisez une méthode jQuery pour modifier la valeur de l'attribut src d'une image en "myimage.jpg".
+$("img").attr("src", "myimage.jpg");
+
+
+Utilisez jQuery pour changer le texte d’un lien en "Démo",
+et changez la valeur de la valeur d'attribut de href en "www.demo.com".
+$("#myLink").text("Demo");
+$("#myLink").attribut("href", "https://www.demo.com");
+
+jQuery ADD
+
+Utilisez une méthode jQuery pour insérer le texte "OUI!" à la fin d'un élément <p>.
+        $("p").append("YES!");
+
+
+Utilisez une méthode jQuery pour insérer le texte "OUI!" au début d'un élément <p>.
+        $("p").prepend("YES!");    
+
+        jQuery REMOVE 
+
+Utilisez une méthode jQuery pour supprimer un élément <div>.
+        $("div").remove();
+
+        
+Utilisez une méthode jQuery pour supprimer uniquement les éléments enfants d'un élément <div>.
+$("div").empty();
+
+Use a jQuery method to remove all <div> elements with class="test" and class="demo".
+        $("div").remove(".test,.demo");
+        
+        jQuery CSS classes
+
+        Utilisez une méthode jQuery pour ajouter la classe "importante" à un élément <p>.
+                $("p").addClass("important");
+
+                Utilisez une méthode jQuery pour ajouter les classes "important" et "test" à un élément <p>.
+                        $("p").addClass("important test");
+
+                        
+Utilisez une méthode jQuery pour supprimer la classe "importante" d'un élément <p>.
+        $("p").removeClass("important");
+
+        
+Utilisez une méthode jQuery pour basculer entre l'ajout et la suppression de la classe "importante" de l'élément <p> au clic.
+        $("p").click(function(){
+          $(this).toggleClass("important");
+        });
+
+        jQuery CSS 
+
+        Utilisez la méthode css () pour ajouter une couleur de fond rose à un élément <p>.
+                $("p").css("background-color", "pink");
+
+                
+Utilisez la méthode css () pour ajouter une bordure pointillée rouge de 5 pixels à un élément <p>.
+        $("p").css("border", " 5px dotted red");
+
+Renvoie la couleur d'arrière-plan d'un élément <p>.
+        $("p"). css("background-color");
+
+        
+Utilisez la méthode css () pour définir les styles suivants pour <p>:
+        Couleur de fond verte, couleur du texte blanc, taille de la police de 25 pixels et remplissage de 15 pixels.
+        $("p").css({
+  "background-color": "green",
+  "color": "white",
+  "font-size": "25px",
+  "padding": "15px"
+});
+
+jQuery DIMENSIONS   
+
+Use jQuery methods to set the height and width of <div> to 500 pixels.
+        $("div").height(500).width(500);
+
+Utilisez une méthode jQuery pour obtenir la hauteur d’un élément <div>, à l’exclusion du remplissage, de la bordure et de la marge.
+        $("div").height()
+
+   
+Utilisez une méthode jQuery pour obtenir la hauteur d’un élément <div>, y compris le remplissage (pas de bordure ni de marge).
+        $("div").innerHeight()
+
+     
+Utilisez une méthode jQuery pour obtenir la hauteur d’un élément <div>, y compris le remplissage et la bordure.   
+        $("div").outerHeight()
+
+        Utilisez une méthode jQuery pour obtenir la hauteur d'un élément <div>, y compris le remplissage, la bordure et la marge.
+                $("div").outerHeight(true)
+
+                jQuery TRAVERSING   
+
+                
+Utilisez une méthode jQuery pour obtenir le parent direct d'un élément <span>.
+        $("span").parent();
+
+        Utilisez une méthode jQuery pour obtenir tous les ancêtres d'un élément <span>.
+$("span").parents();
+
+
+Utilisez une méthode jQuery pour obtenir tous les enfants directs d’un élément <div>.
+        $("div").children();
+
+        
+Utilisez une méthode jQuery pour obtenir tous les éléments <span> descendants de <div>.
+        $("div").find("span");
+
+        Utilisez une méthode jQuery pour obtenir tous les éléments frères d’un élément <h2>.
+                $("h2").siblings();
+
+                
+Utilisez une méthode jQuery pour obtenir le premier élément <div> du document.
+        $("div").first();
+        
