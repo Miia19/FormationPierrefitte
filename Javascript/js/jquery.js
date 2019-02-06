@@ -19,8 +19,53 @@ var myUsers = [
     {
         img: "https://i.pinimg.com/236x/92/42/16/924216764a4a566cf898050db5ccb4a0.jpg",
         name: "assou",
-        birthday: "1997-05-22"
+        birthday: "22-05-1997"
+    },
+    {
+        img: "https://i.pinimg.com/236x/e2/cb/04/e2cb049cc9c210824d9ab20b5adc719d--anime-k%C4%B1zlar%C4%B1-anime-art.jpg",
+        name: "mel",
+        birthday: "01-10-1995"
+    }, 
+    {
+        img: "https://data.whicdn.com/images/176385891/original.jpg",
+        name: "fayzou",
+        birthday: "23-12-1991"
+    },
+
+    {
+        img: "https://i.pinimg.com/originals/b0/38/47/b03847bd7544ed556793df8aa758d7ca.jpg",
+        name: "Maec",
+        birthday: "01-11-1994"
+    },
+    {
+        img: "https://i.pinimg.com/236x/d7/68/dc/d768dcd907de20148e8bfed4c23e9758--manga-boy-manga-anime.jpg",
+        name: "tane",
+        birthday: "20-04-1990"
+    },
+    {
+        img: "https://i.pinimg.com/originals/98/fd/3a/98fd3a84d5b02c3a075264e326e4e8dd.jpg",
+        name: "ando",
+        birthday: "15-06-1996"
+    },
+    {
+        img: "https://i.pinimg.com/236x/ed/ea/ef/edeaefbe14bbf65a02ab9ba88a033fb1.jpg",
+        name: "lei",
+        birthday: "25-07-1992"
+    },
+    {
+        img: "http://img.over-blog-kiwi.com/1/20/66/54/obpiceISuKF.jpeg",
+        name: "sia",
+        birthday: "19-12-1990"
+    },
+    {
+        img: "https://i.pinimg.com/originals/ec/d6/49/ecd649d2b66cc88fae45d26d73c4d4cd.jpg",
+        name: "laine",
+        birthday: "19-10-1993"
     }
+    
+    
+
+    
 ];
 
 
@@ -55,7 +100,7 @@ function start() {
 function afficherUtilisateurs() {
 
     var listUsers = '<div class="row">';
-    var defaultImage = "http://aws-cf.ados.fr/prod/photos/4/1/2/7950412/2954537/img-295453787e.jpg?v=5";
+    var defaultImage = "https://florette.fr/idees-fraiches/wp-content/uploads/2018/04/H1bonjour.png";
     for (i = 0; i < myUsers.length; i++) {
         // listUsers += '<div class= "col-md-3 mx-auto" style="width: 200px;">' + myUsers[i].name + '<br>' + myUsers[i].birthday + '</div>';
 
@@ -107,12 +152,3 @@ $(document).ready(function () {
     });
 });
 
-
-
-
-$(document).ready(function(){
-    $(function(){
-      var div = $(".card");
-      div.animate({left:'430px'}, "slow");
-    });
-  });
