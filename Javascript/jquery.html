@@ -8,17 +8,20 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <!-- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     
-      <div class="container" >
+    <div class="container" >
       
         <button id="inscription" class="accept mb-4">inscription</button>  
-         <img src="img/eyr.jpg" class="img w-100 mb-2" alt="#">
-        <div class="row">
-        
-            <form>
+
+        <img src="img/New Project (1).jpg" class="img w-100 mb-2" alt="#">
+
+        <form>
             <div class="form-row">
                 <div class="col">
                     <input id="nom" type="text" class="form-control" placeholder="Nom">
@@ -30,16 +33,21 @@
             <div class="btn mb-4">
                 <input onclick="start()" type="button" class="btn btn-primary" value="Valider">
             </div>
-            
-          </div>
         </form>
-                <div id="list_users" class="row"></div>
+
+        <div id="list_users" class="row"></div>
     </div>  
+   
+
+    <!-- Dans cet exemple, la méthode setInterval () exécute la fonction setColor
+    () une fois toutes les 300 millisecondes, ce qui permet de basculer entre deux 
+    couleurs d'arrière-plan.  -->
+
+<button onclick="stopColor()">Stop</button>
+
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    
 </body>
 
 
